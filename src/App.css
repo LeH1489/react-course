@@ -36,3 +36,118 @@
     transform: rotate(360deg);
   }
 }
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #61dafb;
+  color: #fff;
+  padding: 1rem;
+  margin-bottom: 50px;
+}
+
+.links {
+  display: flex;
+  gap: 1rem;
+}
+
+.links a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 1.2rem;
+}
+
+.user {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.user p {
+  font-size: 1.2rem;
+  margin: 0;
+}
+
+.user img {
+  border-radius: 50%;
+}
+
+.form {
+  width: 100%;
+  max-width: 600px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #f9f9f9;
+  padding: 20px;
+  border-radius: 10px;
+  padding: 40px;
+}
+
+.formChild {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.formChild input[type="submit"] {
+  margin-top: 20px;
+  padding: 10px 20px;
+  background-color: #0077cc;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.formChild input[type="submit"]:hover {
+  background-color: #005fa3;
+}
+
+.formChild input,
+.formChild textarea {
+  width: 100%;
+  margin-bottom: 10px;
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+.formChild p {
+  margin: 0;
+  font-size: 14px;
+  color: #ff0000;
+  margin-top: 5px;
+}
+
+.Post {
+  background-color: #f9f9f9;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+.title {
+  font-size: 24px;
+  font-weight: bold;
+  color: #333;
+  margin-bottom: 10px;
+}
+
+.body {
+  font-size: 20px;
+  line-height: 1.5;
+  color: #666;
+  margin-bottom: 20px;
+}
+
+.footer {
+  font-size: 18px;
+  color: #999;
+}
